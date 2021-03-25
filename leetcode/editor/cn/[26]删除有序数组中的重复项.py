@@ -62,7 +62,7 @@ from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
-        双指针法：一个快指针，一个慢指针，慢指针记录不重复的数字，快指针遍历List(适用于已排序的列表)
+        双指针法：一个快指针，一个慢指针，慢指针记录不重复的数字，快指针遍历List(适用于有序列表)
         :param nums:
         :return:
         """
